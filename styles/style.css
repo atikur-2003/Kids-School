@@ -110,3 +110,93 @@ nav{
     width: 320px;
     height: 370px;
 }
+
+/* curriculum-section styles */
+.curriculum-section{
+    background-image: url(../assets/bg.png);
+    padding: 50px 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.curriculum-section-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.curriculum-items{
+    display: flex;
+    gap: 40px;
+
+}
+.curriculum-card{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 16px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    padding: 35px 30px;
+    flex: 1;
+
+}
+.curriculum-card-img{
+    position: relative;
+}
+.curriculum-card-img img{
+    width: 75px;
+    position: absolute;
+    top: 25px;
+    left: 90px;
+}
+.curriculum-card-content{
+    text-align: center;
+    margin-top: 140px;
+}
+.curriculum-card-content h2{
+    font-family: "Quicksand", serif;
+    color: rgb(32, 32, 32);
+    font-size: 22px;
+    margin: 15px;
+    font-weight: 700;
+}
+.curriculum-card-content{
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.card-link{
+    font-family: "Quicksand", serif;
+    text-align: center;
+    margin-top: 15px;
+}
+.card-link a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+.link-1 a{
+    color: rgb(100, 200, 255);
+}
+.link-2 a{
+    color: rgb(240, 170, 0);
+}
+.link-3 a{
+    color: rgb(135, 0, 255);
+}
+.left-right-arrow{
+    margin-top: 60px;
+}
+.left-right-arrow span{
+    background-color: rgb(254, 163, 1);
+    color: #fff;
+    padding: 15px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 5px;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    cursor: pointer;
+}
