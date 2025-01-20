@@ -60,10 +60,53 @@ nav{
     background-color: rgb(254, 163, 1);
     color: #fff;
     font-size: 16px;
-    border-radius: 10px;
+    border-radius: 12px;
     border: navajowhite;
     cursor: pointer;
 }
 .hamburger{
     display: none;
+}
+
+/* banner styles */
+.banner{
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.banner-content h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: rgb(254, 163, 1);
+}
+.banner-content h2{
+    font-weight: 700;
+    font-size: 45px;
+    color: rgb(17, 17, 17);
+}
+.banner-content h2 span{
+    font-weight: 700;
+    font-size: 45px;
+    color: rgb(1, 172, 253);
+}
+.banner-content p{
+    font-size: 20px;
+    color: rgb(17, 17, 17);
+    font-weight: 400;
+    margin: 15px 0;
+}
+.banner-btn{
+    background-color: rgb(17, 17, 17);
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.banner-img img{
+    width: 320px;
+    height: 370px;
 }
