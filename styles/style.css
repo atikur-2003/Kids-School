@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Quicksand", serif;
+}
+
+/* header styles */
+.header{
+    width: 1024px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-logo img{
+    width: 50px;
+    margin-right: 7px;
+}
+.nav-logo h2{
+    color: rgb(17, 17, 17);
+    font-size: 27px;
+    font-weight: 700;
+}
+.nav-links ul{
+    display: flex;
+    gap: 25px;
+}
+.nav-links ul li{
+    list-style: none;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav-links ul li:first-child a{
+    color: rgb(254, 163, 1);
+}
+.nav-links ul li:nth-child(2) a{
+    color: rgb(1, 172, 253);
+}
+.nav-links ul li:nth-child(3) a{
+    color: rgb(5, 212, 223);
+}
+.nav-links ul li:nth-child(4) a{
+    color: rgb(93, 88, 239);
+}
+.nav-btn button{
+    padding: 10px 30px;
+    background-color: rgb(254, 163, 1);
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    border: navajowhite;
+    cursor: pointer;
+}
+.hamburger{
+    display: none;
+}
