@@ -128,11 +128,11 @@ nav{
 
 /* curriculum-section styles */
 .curriculum-section{
-    /* background-image: url(../assets/bg.png);
+    background-image: url(../assets/bg.png);
     padding: 50px 130px;
     display: flex;
     flex-direction: column;
-    align-items: center; */
+    align-items: center;
 
 }
 .curriculum-section-title{
@@ -221,13 +221,12 @@ nav{
 }
 .left-right-arrow span:hover{
     background-color: rgb(101, 214, 224);
-    color: ;
 }
 
 /* story-section styles */
 .story-section{
     background-image: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
-    /* margin: 60px 0; */
+    margin: 60px 0;
     padding: 50px 110px;
 }
 
@@ -239,10 +238,10 @@ nav{
     font-weight: 700;
 }
 .story-section-items{
-   /* display: grid;
+   display: grid;
    grid-template-columns: repeat(4, 1fr);
    gap: 15px;
-   margin: 60px 0; */
+   margin: 60px 0;
 }
 #card-1{
     grid-row: 2 span;
