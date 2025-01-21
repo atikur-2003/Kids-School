@@ -5,6 +5,9 @@
 body{
     font-family: "Quicksand", serif;
 }
+.none{
+    display: none;
+}
 
 /* header styles */
 .header{
@@ -125,11 +128,11 @@ nav{
 
 /* curriculum-section styles */
 .curriculum-section{
-    background-image: url(../assets/bg.png);
+    /* background-image: url(../assets/bg.png);
     padding: 50px 130px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
 
 }
 .curriculum-section-title{
@@ -149,20 +152,20 @@ nav{
     background: linear-gradient(180deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
     padding: 35px 30px;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 
 }
 .curriculum-card-img{
-    position: relative;
+    padding: 25px 20px;
 }
 .curriculum-card-img img{
     width: 75px;
-    position: absolute;
-    top: 25px;
-    left: 90px;
 }
 .curriculum-card-content{
     text-align: center;
-    margin-top: 140px;
 }
 .curriculum-card-content h2{
     font-family: "Quicksand", serif;
@@ -236,10 +239,10 @@ nav{
     font-weight: 700;
 }
 .story-section-items{
-   display: grid;
+   /* display: grid;
    grid-template-columns: repeat(4, 1fr);
    gap: 15px;
-   margin: 60px 0;
+   margin: 60px 0; */
 }
 #card-1{
     grid-row: 2 span;

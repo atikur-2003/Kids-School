@@ -1,5 +1,5 @@
-/* header responsive */
-@media screen and (max-width: 576px) {
+/* small devices */
+@media screen and (max-width: 575.98px) {
     .header{
         width: auto;
         margin: 0;
@@ -34,24 +34,81 @@
     width: 100%;
     height: 100%;
    }
+   .curriculum-section{
+    padding: 20px 30px;
+   }
+   .curriculum-section-title{
+    margin-bottom: 25px;
+   }
+   .curriculum-items{
+    flex-direction: column;
+   }
+   
+   .left-right-arrow, #card-1{
+        display: none;
+   }
+   .story-section{
+    padding: 20px 30px;
+   }
+   #card-1{
+    display: none;
+   }
+   .story-section-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin: 60px 0;
+    }
+    .card-desc .card-btn button{
+        position: absolute;
+        top: 120px;
+        left: 34px;
+    }
+    .footer{
+        flex-direction: column;
+        padding: 35px 50px;
+        width: auto;
+    }
+    
+    .footer-content{
+        width: auto;
+    }
+    .footer-nav h2{
+        margin-top: 35px;
+        margin-bottom: 15px;
+    }
+    .footer-nav ul{
+        gap: 10px;
+    }
+    .footer-links h2{
+        margin-top: 30px;
+    }
 }
 
 /* medium devices */
-@media screen and (min-width: 577px) and (max-width :992px) {
+@media screen and (min-width: 576px) and (max-width: 991.98px) {
     .header{
         width: auto;
-        margin: 0;
     }
     nav{
-        /* padding: 10px 20px; */
+        flex-direction: column;
+        gap: 30px;
         justify-content: space-around;
     }
     .banner{
-        /* padding: 0 20px; */
+        padding: 0 20px;
+        gap: 0;
+        flex-direction: column-reverse;
         justify-content: space-around;
     }
+    .banner-content{
+        text-align: center;
+        padding: 0 20px;
+        margin-top: 20px;
+        width: calc(100% - 80px);
+    }
     .banner-content h1,.banner-content h2,.banner-content h2 span{
-        font-size: 35px;
+        font-size: 25px;
     }
     .banner-content p{
         font-size: 16px;
@@ -59,5 +116,67 @@
     .banner-img img{
         width: 100%;
         height: 100%;
+    }
+    .curriculum-section{
+        padding: 30px 60px;
+    }
+    .curriculum-items{
+        flex-direction: column;
+    }
+    .left-right-arrow{
+        text-align: center;
+    }
+    .story-section{
+        padding: 20px 30px;
+    }
+    .story-section-items{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+        margin: 60px 0;
+     }
+     #card-1{
+        grid-row: 2 span;
+        grid-column: 2 span;
+     }
+     .footer{
+        flex-direction: column;
+        padding: 35px 50px;
+        width: auto;
+    }
+    
+    .footer-content{
+        width: auto;
+    }
+    .footer-nav h2{
+        margin-top: 35px;
+        margin-bottom: 15px;
+    }
+    .footer-nav ul{
+        gap: 10px;
+    }
+    .footer-links h2{
+        margin-top: 30px;
+    }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .header{
+        width: 900px;
+        margin: 0 auto;
+    }
+    .curriculum-section{
+        padding: 30px 100px;
+    }
+    .curriculum-items{
+        flex-direction: column;
+    }
+    .left-right-arrow{
+        text-align: center;
+    }
+    .footer{
+        padding: 50px 70px;
+        width: auto;
     }
 }
