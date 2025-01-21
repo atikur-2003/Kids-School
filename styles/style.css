@@ -43,6 +43,9 @@ nav{
     font-size: 18px;
     font-weight: 500;
 }
+.nav-links ul li a:hover{
+    text-decoration: underline;
+}
 .nav-links ul li:first-child a{
     color: rgb(254, 163, 1);
 }
@@ -63,6 +66,11 @@ nav{
     border-radius: 12px;
     border: navajowhite;
     cursor: pointer;
+    transition: .3s;
+}
+.nav-btn button:hover{
+    background-color: rgb(172, 230, 105);
+    color: black;
 }
 .hamburger{
     display: none;
@@ -105,6 +113,10 @@ nav{
     margin-top: 10px;
     cursor: pointer;
     border-radius: 12px;
+    transition: .3s;
+}
+.banner-btn:hover{
+    background-color: rgb(211, 97, 97);
 }
 .banner-img img{
     width: 320px;
@@ -176,6 +188,9 @@ nav{
     font-weight: 600;
     font-size: 16px;
 }
+.card-link a:hover{
+    text-decoration: underline;
+}
 .link-1 a{
     color: rgb(100, 200, 255);
 }
@@ -199,12 +214,17 @@ nav{
     height: 17px;
     border-radius: 50%;
     cursor: pointer;
+    transition: .3s;
+}
+.left-right-arrow span:hover{
+    background-color: rgb(101, 214, 224);
+    color: ;
 }
 
 /* story-section styles */
 .story-section{
     background-image: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
-    margin: 60px 0;
+    /* margin: 60px 0; */
     padding: 50px 110px;
 }
 
@@ -218,7 +238,6 @@ nav{
 .story-section-items{
    display: grid;
    grid-template-columns: repeat(4, 1fr);
-   /* grid-template-rows: 200px repeat(2, 100px); */
    gap: 15px;
    margin: 60px 0;
 }
@@ -243,7 +262,13 @@ nav{
 #card-1 .card-1btn button{
     position: absolute;
     top: 303px;
+    cursor: pointer;
     left: 40px;
+    background-color: rgb(60, 216, 232);
+    transition: .3s;
+}
+#card-1 .card-1btn button:hover{
+    background-color: rgb(254, 163, 1);
 }
 
 .story-section-card{
@@ -257,7 +282,7 @@ nav{
     border-radius: 15px 15px 0 0;
 }
 .card-desc{
-    padding: 20px 30px;
+    padding: 30px;
     margin-top: -4px;
 }
 .card-desc p{
@@ -270,9 +295,122 @@ nav{
     position: absolute;
     top: 135px;
     left: 34px;
+    cursor: pointer;
     padding: 10px;
     border-radius: 40px;
     border: none;
-    background-color: rgb(60, 216, 232);
     color: #fff;
+}
+#card2-btn button{
+    background-color: rgb(149, 178, 38);
+    transition: .3s;
+}
+#card2-btn button:hover{
+    background-color: rgb(230, 100, 187);
+}
+#card3-btn button{
+    background-color: rgb(93, 88, 240);
+    transition: .3s;
+}
+#card3-btn button:hover{
+    background-color: rgb(230, 177, 121);
+    color: black;
+}
+#card4-btn button{
+    background-color: rgb(149, 178, 38);
+    transition: .3s;
+}
+#card4-btn button:hover{
+    background-color: rgb(230, 100, 187);
+}
+ #card5-btn button{
+    background-color: rgb(149, 178, 38);
+    transition: .3s;
+ }
+ #card5-btn button:hover{
+    background-color: rgb(230, 100, 187);
+}
+.story-section-btn{
+    text-align: center;
+}
+
+.story-section-btn button{
+    background-color: rgb(17, 17, 17);
+    color: #fff;
+    padding: 10px 35px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: .3s;
+}
+.story-section-btn button:hover{
+    background-color: rgb(211, 97, 97);
+}
+
+/* footer styles */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    background-color: rgb(1, 172, 253);
+    padding: 100px 150px;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+.footer-logo img{
+    width: 70px;
+    margin-right: 10px;
+}
+.footer-logo h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.footer-content p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+}
+.footer-nav h2{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.footer-nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-nav ul li{
+    list-style: none;
+}
+.footer-nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .3s;
+}
+.footer-nav ul li a:hover{
+    color: rgb(187, 232, 91);
+}
+.footer-links h2{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+.links-img img{
+    width: 30px;
+    cursor: pointer;
+    margin-right: 7px;
 }
