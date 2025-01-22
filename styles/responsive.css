@@ -76,13 +76,13 @@
     }
     .card-desc .card-btn button{
         position: absolute;
-        top: 55%;
+        top: 57%;
         left: 10%;
-        /* transform: translateX(-45%); */
+        font-size: 10px;
     }
    
     #card5-btn button{
-        top: 55%;
+        top: 58%;
     }
     .story-section-btn button{
         margin-top: -20px;
@@ -108,21 +108,98 @@
         margin-top: 30px;
     }
 }
-/* @media screen and (max-width: 450px) {
+@media screen and (max-width: 440px) {
     .card-desc .card-btn button{
         position: absolute;
-        top: 40%;
+        top: 50%;
         left: 5%;
-        /* transform: translateX(-45%); */
+        padding: 10px;
     }
-    /* #card4-btn button{
-        top: 35%;
+    
+    #card4-btn button{
+        top: 45%;
+    }
+    #card5-btn button{
+        top: 52%;
+    }
+    
+}
+ @media screen and (max-width: 410px) {
+    .card-desc .card-btn button{
+        top: 50%;
+        left: 5%;
+        padding: 10px;
+    }
+    #card3-btn button{
+        top: 45%;
+    }
+    #card4-btn button{
+        top: 40%;
+    }
+    #card5-btn button{
+        top: 52%;
+    }
+    
+}
+@media screen and (max-width: 390px) {
+
+    #card2-btn button{
+        top: 43%;
+    }
+    
+    #card4-btn button{
+        top: 40%;
+    }
+    #card5-btn button{
+        top: 50%;
+    }
+    
+}
+@media screen and (max-width: 385px) {
+
+    #card2-btn button{
+        top: 43%;
+    }
+    
+    #card4-btn button{
+        top: 40%;
     }
     #card5-btn button{
         top: 40%;
-    } */
+    }
     
-} */
+}
+@media screen and (max-width: 380x) {
+
+    #card2-btn button{
+        top: 40%;
+    }
+    
+    #card4-btn button{
+        top: 40%;
+    }
+    #card5-btn button{
+        top: 40%;
+    }
+    
+}
+@media screen and (max-width: 360px) {
+
+    #card2-btn button{
+        top: 40%;
+    }
+    #card3-btn button{
+        top:40%;
+    }
+    
+    #card4-btn button{
+        top: 35%;
+    }
+    #card5-btn button{
+        top: 43%;
+    }
+    
+}
 
 /* medium devices */
 @media screen and (min-width: 576px) and (max-width: 991.98px) {
