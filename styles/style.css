@@ -5,10 +5,6 @@
 body{
     font-family: "Quicksand", serif;
 }
-.none{
-    display: none;
-}
-
 /* header styles */
 .header{
     width: 1024px;
@@ -292,7 +288,7 @@ nav{
     font-weight: 700;
     line-height: 25px;
 }
-.card-desc .card-btn button{
+.story-section-card .card-btn button{
     position: absolute;
     top: 135px;
     left: 34px;

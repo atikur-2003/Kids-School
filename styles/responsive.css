@@ -37,9 +37,6 @@
    .curriculum-section{
     padding: 20px 30px;
    }
-   .curriculum-section-title{
-    margin-bottom: 25px;
-   }
    .curriculum-items{
     flex-direction: column;
    }
@@ -47,26 +44,42 @@
    .left-right-arrow, #card-1{
         display: none;
    }
-   .story-section{
-    padding: 20px 30px;
-   }
-   #card-1{
-    display: none;
+   .story-section, .curriculum-section{
+        /* background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center; */
+        padding: 20px 30px;
    }
    .story-section-items{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
-    margin: 60px 0;
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       gap: 10px;
+       margin: 60px 0;
+    }
+    #card-1{
+     display: none;
     }
     .card-desc .card-btn button{
         position: absolute;
         top: 120px;
         left: 34px;
     }
+    .story-section-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .story-section-card .card-btn button{
+        top: 37%;
+        left: 10%;
+        /* transform: translate(); */
+    }
+    .story-section-btn button{
+        margin-top: -20px;
+        margin-bottom: 15px;
+    }
     .footer{
         flex-direction: column;
-        padding: 35px 50px;
+        padding: 35px 40px;
         width: auto;
     }
     
