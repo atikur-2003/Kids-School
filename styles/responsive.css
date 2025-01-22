@@ -6,7 +6,7 @@
     }
     nav{
         padding: 12px 15px;
-        border-bottom: .1px solid orange;
+        border: .1px solid orange;
         margin-top: 0;
     }
     .nav-logo h2, .nav-links, .nav-btn{
