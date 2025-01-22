@@ -132,11 +132,11 @@ nav{
 
 /* curriculum-section styles */
 .curriculum-section{
-    /* background-image: url(../assets/bg.png);
+    background-image: url(../assets/bg.png);
     padding: 50px 130px;
     display: flex;
     flex-direction: column;
-    align-items: center; */
+    align-items: center;
 
 }
 .curriculum-section-title{
@@ -149,7 +149,7 @@ nav{
 
 }
 .curriculum-card{
-    /* box-sizing: border-box;
+    box-sizing: border-box;
     border: 0.94px solid rgb(222, 245, 255);
     border-radius: 16px;
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
@@ -158,7 +158,7 @@ nav{
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: center; */
+    align-items: center;
 
 
 }
@@ -355,11 +355,11 @@ nav{
 
 /* footer styles */
 .footer{
-    /* display: flex;
+    display: flex;
     justify-content: space-between;
     color: #fff;
     background-color: rgb(1, 172, 253);
-    padding: 100px 150px; */
+    padding: 100px 150px;
 }
 .footer-content{
     display: flex;
